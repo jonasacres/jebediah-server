@@ -18,7 +18,7 @@ class JebediahServer < Sinatra::Base
 
 		if translated[:type] == 'error' then
 			respond_with :error, "error" do |f|
-				f.json { JSON.generate({ :phrase => 'error', :hash => 'error' }) }
+				f.json { JSON.generate({ :error => "Cannot translate #{params[:splat][0]}" }) }
 			end
 			return
 		end
