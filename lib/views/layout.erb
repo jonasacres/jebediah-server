@@ -5,6 +5,15 @@
   <link rel="icon" 
   type="image/png" 
   href="/img/jebediah-icon.png">
+
+  <script type="text/javascript">
+    function query() {
+      var txt = document.getElementById("txtQuery");
+      value = txt.value
+      reformatted = value.split(' ').join('/')
+      document.location.href = "/" + reformatted
+    }
+  </script>
 </head>
 
 <body>

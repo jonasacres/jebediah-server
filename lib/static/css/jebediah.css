@@ -107,7 +107,7 @@ body
 	border-radius: 10px;	
 }
 
-.search input[type="submit"]
+.search input[type="button"]
 {
 	height:60px;
 	width:167px;

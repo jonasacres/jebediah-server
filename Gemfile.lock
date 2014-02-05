@@ -1,4 +1,5 @@
 GEM
+  remote: https://rubygems.org/
   specs:
     backports (3.3.5)
     jebediah (1.0.1)

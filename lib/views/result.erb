@@ -9,9 +9,9 @@
 </div>
 
 <div class="search">
-	<form action="" method="GET">
-		<input type="text" name="phrase" />
-		<input type="submit" name="submit" value="Astound!" />
+	<form onsubmit="query();" action="javascript:void(0);">
+		<input type="text" id="txtQuery" name="txtQuery" value="" />
+	    <input type="button" onclick="query();" value="Astound!" id="searchBtn"/>
 	</form>
 </div>
 
